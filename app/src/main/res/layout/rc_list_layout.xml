@@ -24,26 +24,26 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <TextView
-            android:id="@+id/txBri"
+        <Spinner
+            android:id="@+id/spinBri"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <TextView
-            android:id="@+id/txMi"
+        <Spinner
+            android:id="@+id/spinMi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <TextView
-            android:id="@+id/txDela"
+        <Spinner
+            android:id="@+id/spinTask"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <TextView
-            android:id="@+id/txHoly"
+        <Spinner
+            android:id="@+id/spinHoly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
