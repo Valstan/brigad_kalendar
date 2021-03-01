@@ -29,9 +29,9 @@ class MainActivity : AppCompatActivity() {
         fillAdapter()
     }
 
-    fun onClickNewDay(view: View){
+    fun onClickChat(view: View){
 
-        val i = Intent(this, EditCalendar::class.java)
+        val i = Intent(this, ChatBrigadir::class.java)
         startActivity(i)
     }
 
