@@ -13,9 +13,8 @@
         android:layout_height="wrap_content"
         android:background="@android:color/holo_orange_dark"
         android:ems="10"
-        android:gravity="center"
         android:padding="10dp"
-        android:text="ЧАТ БРИГАДИР"
+        android:text="   ЧАТ БРИГАДИР"
         android:textColor="@color/design_default_color_error"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -59,4 +58,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <Button
+        android:id="@+id/btnBackKalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Календарь"
+        app:layout_constraintEnd_toEndOf="@+id/lblChatBrigadir"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Brigad_kalendar">
-        <activity android:name=".ChatBrigadir"></activity>
+        <activity android:name=".rc_chat_layout"></activity>
+        <activity android:name=".ChatBrigadir" />
         <activity android:name=".EditCalendar" />
         <activity android:name=".TestActivity" />
         <activity android:name=".MainActivity">
